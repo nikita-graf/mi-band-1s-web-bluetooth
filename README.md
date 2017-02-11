@@ -1,4 +1,4 @@
-# Xiaomi Mi Band Web Bluetooth API
+# [Xiaomi Mi Band Web Bluetooth API](https://nikita-graf.github.io/mi-band-1s-web-bluetooth/)
 A simple example how to connect with Xiaomi Mi Band 1S using browser. Currently supports only vibration. You can find more
 bracelet api info in links below.
 
