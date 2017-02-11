@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Band 1S Web Bluetooth API Example</title>
+</head>
+<body>
+    <button>Connect Mi Band 1S And Vibrate</button>
+    <script src="./lib.js"></script>
+    <script>
+        document.querySelector('button').addEventListener('click', () => {
+            const miBand = new MiBand();
+
+            miBand.connect()
+                .then(bandApi => bandApi.vibrate())
+                .catch(err => console.log(`Unable to run: ${err}`));
+        });
+    </script>
+</body>
+</html>
